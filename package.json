@@ -1,0 +1,23 @@
+{
+  "name": "vidjot",
+  "version": "1.0.0",
+  "description": "This is an appliation to record vaious video ideas...",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Kartik Mishra",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.16.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.6.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
